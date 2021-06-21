@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="1607087" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/1607087" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/1607087" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="include/BmpLoader.h" />
+		<Unit filename="include/Cricketer.h" />
+		<Unit filename="include/Cube.h" />
+		<Unit filename="include/Cylinder.h" />
+		<Unit filename="include/DotMatrixDisplay.h" />
+		<Unit filename="include/FloodLight.h" />
+		<Unit filename="include/Ground.h" />
+		<Unit filename="include/Hat.h" />
+		<Unit filename="include/Pitch.h" />
+		<Unit filename="include/Sphere.h" />
+		<Unit filename="include/Stadium.h" />
+		<Unit filename="include/Stump.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/BmpLoader.cpp" />
+		<Unit filename="src/Cricketer.cpp" />
+		<Unit filename="src/Cube.cpp" />
+		<Unit filename="src/Cylinder.cpp" />
+		<Unit filename="src/DotMatrixDisplay.cpp" />
+		<Unit filename="src/FloodLight.cpp" />
+		<Unit filename="src/Ground.cpp" />
+		<Unit filename="src/Hat.cpp" />
+		<Unit filename="src/Pitch.cpp" />
+		<Unit filename="src/Sphere.cpp" />
+		<Unit filename="src/Stadium.cpp" />
+		<Unit filename="src/Stump.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
